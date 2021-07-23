@@ -26,13 +26,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
 
+.foreach loops thru everything in an array doesn't return and .map loops thru an array but creates a new array that is returned.
+
 2. Explain the difference between a callback and a higher order function.
+
+callback is a function that is passed into a different function. A higher order function is a function that uses functions as an argument.
 
 3. Explain what a closure is.
 
+see the outer function from inside the inner part of the function
+
 4. Describe the four principles of the 'this' keyword.
 
+ Global which is everything in the window your in.Implicit which calls from the object it is in.New which refers to the specific time of the object that is being created. And, Explicit which defines 'this' exactly usually .call and .apply.
+
 5. Why do we need super() in an extended class?
+
+it is needed to see the parent without it the class wouldn't be able to use the information from the class it extended.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
