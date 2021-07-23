@@ -59,8 +59,14 @@ const zooAnimals = [
   displayNames will be an array of strings, and each string should follow this pattern: "name: {name}, scientific: {scientific name}"
   */
 
-  function animalNames(/*Your Code Here*/){
-    /*Your Code Here*/
+  function animalNames(array){
+    let animalArray = []
+    array.forEach(array => {
+      animalArray.push(
+        `name: ${array.animal_name}, scientific: ${array.scientific_name}`
+      )
+    });
+    return animalArray
   }
   
 
@@ -70,8 +76,9 @@ const zooAnimals = [
   For example: ['jackal, asiatic', .....]
   */
 
-  function lowerCaseNames(/*Your Code Here*/){
-    /*Your Code Here*/
+  function lowerCaseNames(array){
+    let lowNames = array.map(item => item.animal_name.toLowerCase())
+    return lowNames
   }
   
   
